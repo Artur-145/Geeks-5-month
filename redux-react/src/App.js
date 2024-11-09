@@ -1,13 +1,12 @@
-import React from 'react';
-import Counter from './Counter';
+import './App.css';
+import Todo from './pages/todoPage/Todo';
 
-const App = () => {
+function App() {
   return (
-    <div>
-      <h1 style={{ textAlign: 'center' }}>React Redux Counter</h1>
-      <Counter />
+    <div className="App">
+      <Todo />
     </div>
   );
-};
+}
 
 export default App;
